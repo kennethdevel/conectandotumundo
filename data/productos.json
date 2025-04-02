@@ -1,0 +1,27 @@
+[
+    {
+      "nombre": "Laptop Lenovo THINKPAD T16 GEN 2 16",
+      "descripcion": "Rendimiento profesional con procesador Intel i5 y SSD de 1TERA, WIN 11 PRO- Ingles.",
+      "precio": "₡615,000",
+      "imagen": "laptop_lenovo.jpg"
+    },
+    {
+      "nombre": "Cámara de seguridad",
+      "descripcion": "Cámara IP HIKVISION WIFI PTZ PARA EXTERIOR.",
+      "precio": "₡29,000",
+      "imagen": "Camara_hikvisionPTZwifi.jpg"
+    },
+    {
+      "nombre": "Router TP-Link EAP245",
+      "descripcion": "Wi-Fi para hogares y oficinas.",
+      "precio": "₡55,000",
+      "imagen": "PAcceso_TPLINK_EAP245.jpg"
+    },
+    {
+      "nombre": "Disco Duro Externo Adata",
+      "descripcion": "HD 2TB, 2.5 BLUE.",
+      "precio": "₡46,000",
+      "imagen": "HD_ADATA2TBBLUE.jpg"
+    }
+  ]
+  
