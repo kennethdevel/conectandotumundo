@@ -1,22 +1,51 @@
-export default function Home() {
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+
+export default function Inicio() {
   return (
-    <main
-      className="h-screen bg-cover bg-center text-white flex flex-col justify-center items-center px-4"
-      style={{ backgroundImage: "url('/FondoConecMundo.jpg')" }}
+    <div
+      className="relative h-screen bg-cover bg-center flex items-center justify-center text-white"
+      style={{
+        backgroundImage: "url('/fondo-conec-mundo.webp')", // ← nueva imagen
+      }}
     >
-      <div className="bg-black/60 p-8 rounded-xl text-center max-w-xl">
-        <h1 className="text-4xl font-bold mb-4">Bienvenido a Conectando tu Mundo</h1>
-        <p className="text-lg mb-6">
-          Soluciones tecnológicas para hogares y empresas. ¡Conectamos personas con innovación!
+      {/* Capa oscura encima del fondo */}
+      <div className="absolute inset-0 bg-black bg-opacity-50" />
+
+      {/* Contenido animado */}
+      <motion.div
+        className="relative z-10 text-center px-6 max-w-3xl"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight drop-shadow">
+          Tecnología a tu alcance para hogares y empresas
+        </h1>
+        <p className="text-lg md:text-xl mb-8 text-gray-200">
+          Te asesoramos, instalamos y damos soporte. ¡Conectamos personas con innovación!
         </p>
-        <a
-          href="/catalogo"
-          className="bg-teal-600 text-white px-6 py-3 rounded shadow hover:bg-teal-700 hover:shadow-lg transition"
+
+        <motion.div
+          className="flex justify-center gap-4 flex-wrap"
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.5, duration: 0.8 }}
         >
-          Ver Catálogo
-        </a>
-      </div>
-    </main>
+          <Link href="/catalogo">
+            <button className="bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3 rounded transition">
+              Ver Catálogo
+            </button>
+          </Link>
+          <Link href="/cotizacion">
+            <button className="bg-white text-teal-600 hover:bg-gray-100 font-semibold px-6 py-3 rounded transition">
+              Cotizar Ahora
+            </button>
+          </Link>
+        </motion.div>
+      </motion.div>
+    </div>
   );
 }
+
 

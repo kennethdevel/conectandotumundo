@@ -3,25 +3,242 @@
       "nombre": "Laptop Lenovo THINKPAD T16 GEN 2 16",
       "descripcion": "Rendimiento profesional con procesador Intel i5 y SSD de 1TERA, WIN 11 PRO- Ingles.",
       "precio": "₡615,000",
-      "imagen": "laptop_lenovo.jpg"
+      "imagen": "laptop_lenovo.jpg",
+      "categoria": "Laptops"
+    },
+    {
+      "nombre": "LAPTOP HP 15-FC0004LA 15.6 AMD RYZEN 3 7320U 8GB 512GB SSD BLUE WIN 11-SPANISH",
+      "descripcion": "Rendimiento profesional con procesador AMD RYZEN 3 y SSD de 512Gb, WIN 11 PRO- Ingles.",
+      "precio": "₡285,000",
+      "imagen": " LaptopHP15-FC0004LA.jpg",
+      "categoria": "Laptops"
+    },
+    {
+      "nombre": "LAPTOP LENOVO IDEAPAD 1I 15.6 I",
+      "descripcion": "Rendimiento profesional con procesador Intel I5 y SSD de 512GB, WIN 11 HOME Ingles.",
+      "precio": "₡315,000",
+      "imagen": " Laptop_LenovoIDEAPAD1L.jpg",
+      "categoria": "Laptops"
+    },
+    {
+      "nombre": "LAPTOP ASUS X1404ZA-I38128 14 I3-1215U 8GB 128GB SSD WIN 11 HOME INGLES AZUL",
+      "descripcion": "Rendimiento basico con procesador Intel I3 y SSD de 128GB, 8GB RAM-WIN 11 HOME Ingles.",
+      "precio": "₡187,000",
+      "imagen": " Laptop_AsusX1404ZA.jpg",
+      "categoria": "Laptops"
+    },
+    {
+      "nombre": "LAPTOP DELL INSPIRON 3520 KGJC0 15.6 I5-1235U 8GB 512GB SSD WIN 11 HOME ESPAÑOL",
+      "descripcion": "Rendimiento basico con procesador Intel I5 y SSD de 512GB, 8GB RAM-WIN 11 HOME Español.",
+      "precio": "₡295,000",
+      "imagen": " Laptop_Dell_Inspiron3520.jpg",
+      "categoria": "Laptops"
     },
     {
       "nombre": "Cámara de seguridad",
       "descripcion": "Cámara IP HIKVISION WIFI PTZ PARA EXTERIOR.",
       "precio": "₡29,000",
-      "imagen": "Camara_hikvisionPTZWifi.jpg"
+      "imagen": "Camara_hikvisionPTZWifi.jpg",
+      "categoria": "Cámaras de Seguridad"
     },
     {
-      "nombre": "Router TP-Link EAP245",
+      "nombre": "Punto Acceso TP-Link EAP245",
       "descripcion": "Wi-Fi para hogares y oficinas.",
       "precio": "₡55,000",
-      "imagen": "PAcceso_TPLINK_EAP245.jpg"
+      "imagen": "PAcceso_TPLINK_EAP245.jpg",
+      "categoria":"Redes"
+    },
+    {
+      "nombre": "SWITCH HIKVISION",
+      "descripcion": "DS-3E1105P-EI/M ADMINISTRABLE.",
+      "precio": "₡17,000",
+      "imagen": "SWITCH_HIKVISION_ADMIN.jpg",
+      "categoria":"Redes"
+    },
+    {
+      "nombre": "SWITCH TP LINK",
+      "descripcion": "24 PUERTOS 10/100M.",
+      "precio": "₡35,000",
+      "imagen": "SWITCH_TPLINK24P.jpg",
+      "categoria":"Redes"
+    },
+    {
+      "nombre": "ROUTER TP LINK",
+      "descripcion": "WI-FI PORTABLE M7450.",
+      "precio": "₡93,000",
+      "imagen": "ROUTER_TPLINKM7450.jpg",
+      "categoria":"Redes"
     },
     {
       "nombre": "Disco Duro Externo Adata",
       "descripcion": "HD 2TB, 2.5 BLUE.",
       "precio": "₡46,000",
-      "imagen": "HD_ADATA2TBBLUE.jpg"
+      "imagen": "HD_ADATA2TBBLUE.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "MEMORIA RAM ADATA",
+      "descripcion": "LAPTOP 32GB,DDR5 5600MHZ.",
+      "precio": "₡44,000",
+      "imagen": "MemoriaRam_Laptop32GB_ADATA.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "MEMORIA RAM KINGSTON",
+      "descripcion": "LAPTOP 16GB,DDR5 5600MHZ.",
+      "precio": "₡35,000",
+      "imagen": "MemoriaRam_Laptop16GB_KINGSTON.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "DISCO DURO EXTERNO",
+      "descripcion": "HD EXTERNO 1TB 2.5 SEAGATE.",
+      "precio": "₡48,000",
+      "imagen": "HD_EXTERNO_SEAGATE1TB.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "DISCO DURO EXTERNO",
+      "descripcion": "HD EXTERNO 2TB 2.5 WD ELEMENT.",
+      "precio": "₡45,100",
+      "imagen": "HD_EXTERNO_WD2TB.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "DISCO DURO EXTERNO",
+      "descripcion": "HD EXTERNO 4TB TOSHIBA.",
+      "precio": "₡72,000",
+      "imagen": "HD_EXTERNO_TOSHIBA4TB.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "MEMORIA MICRO SD",
+      "descripcion": "512GB KINGSTON CANVAS GO PLUS 170R A2 SDCG3/512GB.",
+      "precio": "₡29,500",
+      "imagen": "MICRO_SDKINGSTON512GB.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "MEMORIA MICRO SD",
+      "descripcion": "256GB KINGSTON CANVAS GO PLUS 170R SDCG3/256GB.",
+      "precio": "₡13,500",
+      "imagen": "MICRO_SDKINGSTON256GB.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "UPS APC ",
+      "descripcion": "120 V BACK-UPS 5 TOMAS NEMA 5-15R Y 2 TOMAS NEMA 5-15R.",
+      "precio": "₡47,800",
+      "imagen": "UPS_APBE600M1.jpg",
+      "categoria":"Respaldo Electrico"
+    },
+    {
+      "nombre": "UPS APC PRO",
+      "descripcion": "BX 1350VA TORRE COMPACTA 120V AVR LCD 10 TOMACORRIENTE NEMA 5 SOBRETENSIONES BX1350M-LM60.",
+      "precio": "₡125,800",
+      "imagen": "UPS_PROBX1350VA.jpg",
+      "categoria":"Respaldo Electrico"
+    },
+    {
+      "nombre": "REGLETA PROTECTOR DE PICOS SMARTBITT",
+      "descripcion": "SUPRESSOR 12 OUTLETS 5USB SBSS-B12-5U.",
+      "precio": "₡12,000",
+      "imagen": "REGLETA_SUPRESOR12OUTLETS.jpg",
+      "categoria":"Respaldo Electrico"
+    },
+    {
+      "nombre": "LUCES GOVEE",
+      "descripcion": "H616C WI-FI RGBIC PARA EXTERIORES 10 METROS.",
+      "precio": "₡29,000",
+      "imagen": "LUCES_GOVEEH616C10METROS.jpg",
+      "categoria":"Smart Home"
+    },
+    {
+      "nombre": "BOMBILLOS LED TP LINK",
+      "descripcion": "SMART WIFI TAPO L530E(2-PACK) MULTICOLOR.",
+      "precio": "₡9,700",
+      "imagen": "BOMBILLO_LEDL530E.jpg",
+      "categoria":"Smart Home"
+    },
+    {
+      "nombre": "ROKU EXPRESS ",
+      "descripcion": "4K+ ROK-3941R2 NEGRO.",
+      "precio": "₡24,700",
+      "imagen": "ROKU_EXPRESS3941R2.jpg",
+      "categoria":"Smart Home"
+    },
+    {
+      "nombre": "AMAZON ECHO ",
+      "descripcion": "SHOW 5 GEN 3 CON PANTALLA TACTIL NEGRO.",
+      "precio": "₡44,900",
+      "imagen": "AMAZON_SHOW5GEN.jpg",
+      "categoria":"Smart Home"
+    },
+    {
+      "nombre": "AMAZON ECHO ",
+      "descripcion": "SHOW 5 GEN 3 CON PANTALLA TACTIL NEGRO.",
+      "precio": "₡44,900",
+      "imagen": "AMAZON_SHOW5GEN.jpg",
+      "categoria":"Smart Home"
+    },
+    {
+      "nombre": "CONECTOR WIFI ",
+      "descripcion": "TP LINK INTELIGENTE MINI TAPO P125 (1PACK).",
+      "precio": "₡5,900",
+      "imagen": "CONECTOR_WIFFI_P125.jpg",
+      "categoria":"Smart Home"
+    },
+    {
+      "nombre": "MICROSOFT OFFICE ",
+      "descripcion": "365 PERSONAL 1YR.",
+      "precio": "₡45,000",
+      "imagen": "Moffice_365personal.jpg",
+      "categoria":"Software"
+    },
+    {
+      "nombre": "WINDOWS 11 PRO",
+      "descripcion": "WINDOWS 11 PRO.",
+      "precio": "₡145,000",
+      "imagen": "WINDOWS_11PRO.jpg",
+      "categoria":"Software"
+    },
+    {
+      "nombre": "LICENCIA KASPERSKY",
+      "descripcion": "INTERNET SECURITY 3.",
+      "precio": "₡23,000",
+      "imagen": "KASPERSKY3.jpg",
+      "categoria":"Software"
+    },
+    {
+      "nombre": "TECLADO GENIUS",
+      "descripcion": "KB-117S MEMBRANA ALÁMBRICO USB ESPAÑOL.",
+      "precio": "₡3,700",
+      "imagen": "TECLADO_KB117S.jpg",
+      "categoria":"Perifericos"
+    },
+    {
+      "nombre": "MOUSE LOGITECH",
+      "descripcion": "M196 INALÁMBRICO BLUETOOTH.",
+      "precio": "₡5,400",
+      "imagen": "MOUSE_M196.jpg",
+      "categoria":"Perifericos"
+    },
+    {
+      "nombre": "TECLADO GENIUS",
+      "descripcion": "ERGO KB-700 MEMBRANA ALÁMBRICO USB ESPAÑOL.",
+      "precio": "₡14,000",
+      "imagen": "TECLADO_ERGOKB-700.jpg",
+      "categoria":"Perifericos"
+    },
+    {
+      "nombre": "TECLADO GENIUS",
+      "descripcion": "ERGO KB-700 MEMBRANA ALÁMBRICO USB ESPAÑOL.",
+      "precio": "₡14,000",
+      "imagen": "TECLADO_ERGOKB-700.jpg",
+      "categoria":"Perifericos"
     }
+    
+    
   ]
+
   
