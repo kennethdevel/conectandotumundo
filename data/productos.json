@@ -1,0 +1,566 @@
+[
+    {
+      "nombre": "Laptop Lenovo THINKPAD T16 GEN 2 16",
+      "descripcion": "Rendimiento profesional con procesador Intel i5 y SSD de 1TERA, WIN 11 PRO- Ingles.",
+      "precio": "₡615,000",
+      "imagen": "laptop_lenovo.jpg",
+      "categoria": "Laptops",
+      "colores": ["Negro", "Azul", "Plata"]
+    },
+    {
+      "nombre": "LAPTOP HP 15-FC0004LA 15.6 AMD RYZEN 3 7320U 8GB 512GB SSD BLUE WIN 11-SPANISH",
+      "descripcion": "Rendimiento profesional con procesador AMD RYZEN 3 y SSD de 512Gb, WIN 11 PRO- Ingles.",
+      "precio": "₡285,000",
+      "imagen": " LaptopHP15-FC0004LA.jpg",
+      "categoria": "Laptops"
+    },
+    {
+      "nombre": "LAPTOP LENOVO IDEAPAD 1I 15.6 I",
+      "descripcion": "Rendimiento profesional con procesador Intel I5 y SSD de 512GB, WIN 11 HOME Ingles.",
+      "precio": "₡315,000",
+      "imagen": " Laptop_LenovoIDEAPAD1L.jpg",
+      "categoria": "Laptops"
+    },
+    {
+      "nombre": "LAPTOP ASUS X1404ZA-I38128 14 I3-1215U 8GB 128GB SSD WIN 11 HOME INGLES AZUL",
+      "descripcion": "Rendimiento basico con procesador Intel I3 y SSD de 128GB, 8GB RAM-WIN 11 HOME Ingles.",
+      "precio": "₡187,000",
+      "imagen": " Laptop_AsusX1404ZA.jpg",
+      "categoria": "Laptops"
+    },
+    {
+      "nombre": "LAPTOP DELL INSPIRON 3520 KGJC0 15.6 I5-1235U 8GB 512GB SSD WIN 11 HOME ESPAÑOL",
+      "descripcion": "Rendimiento basico con procesador Intel I5 y SSD de 512GB, 8GB RAM-WIN 11 HOME Español.",
+      "precio": "₡295,000",
+      "imagen": " Laptop_Dell_Inspiron3520.jpg",
+      "categoria": "Laptops"
+    },
+    {
+      "nombre": "Cámara de seguridad",
+      "descripcion": "Cámara IP HIKVISION WIFI PTZ PARA EXTERIOR.",
+      "precio": "₡29,000",
+      "imagen": "Camara_hikvisionPTZWifi.jpg",
+      "categoria": "Cámaras de Seguridad"
+    },
+    {
+      "nombre": "CAMARA HIKVISION",
+      "descripcion": "MINI BULLET HIKVISION DS-2CE10KF0T-LPFS(2.8MM) 3K SMART HYBRID LENTE FOCAL FIJO 20M.",
+      "precio": "₡18,000",
+      "imagen": "Camara_miniB2CE10KF0T.jpg",
+      "categoria": "Cámaras de Seguridad"
+    },
+    {
+      "nombre": "CÁMARA IP HIKVISION",
+      "descripcion": "CDS-2CV1023G2-LIDW(B) BULLET AUDIO 2 VIAS WIFI MICRO SD PARA EXTERIORES 2MP.",
+      "precio": "₡19,000",
+      "imagen": "Camara_ip.jpg",
+      "categoria": "Cámaras de Seguridad"
+    },
+    {
+      "nombre": "Punto Acceso TP-Link EAP245",
+      "descripcion": "Wi-Fi para hogares y oficinas.",
+      "precio": "₡55,000",
+      "imagen": "PAcceso_TPLINK_EAP245.jpg",
+      "categoria":"Redes"
+    },
+    {
+      "nombre": "SWITCH HIKVISION",
+      "descripcion": "DS-3E1105P-EI/M ADMINISTRABLE.",
+      "precio": "₡17,000",
+      "imagen": "SWITCH_HIKVISION_ADMIN.jpg",
+      "categoria":"Redes"
+    },
+    {
+      "nombre": "SWITCH TP LINK",
+      "descripcion": "24 PUERTOS 10/100M.",
+      "precio": "₡35,000",
+      "imagen": "SWITCH_TPLINK24P.jpg",
+      "categoria":"Redes"
+    },
+    {
+      "nombre": "ROUTER TP LINK",
+      "descripcion": "WI-FI PORTABLE M7450.",
+      "precio": "₡93,000",
+      "imagen": "ROUTER_TPLINKM7450.jpg",
+      "categoria":"Redes"
+    },
+    {
+      "nombre": "Disco Duro Externo Adata",
+      "descripcion": "HD 2TB, 2.5 BLUE.",
+      "precio": "₡46,000",
+      "imagen": "HD_ADATA2TBBLUE.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "MEMORIA RAM ADATA",
+      "descripcion": "LAPTOP 32GB,DDR5 5600MHZ.",
+      "precio": "₡44,000",
+      "imagen": "MemoriaRam_Laptop32GB_ADATA.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "MEMORIA RAM KINGSTON",
+      "descripcion": "LAPTOP 16GB,DDR5 5600MHZ.",
+      "precio": "₡35,000",
+      "imagen": "MemoriaRam_Laptop16GB_KINGSTON.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "DISCO DURO EXTERNO",
+      "descripcion": "HD EXTERNO 1TB 2.5 SEAGATE.",
+      "precio": "₡48,000",
+      "imagen": "HD_EXTERNO_SEAGATE1TB.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "DISCO DURO EXTERNO",
+      "descripcion": "HD EXTERNO 2TB 2.5 WD ELEMENT.",
+      "precio": "₡45,100",
+      "imagen": "HD_EXTERNO_WD2TB.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "DISCO DURO EXTERNO",
+      "descripcion": "HD EXTERNO 4TB TOSHIBA.",
+      "precio": "₡72,000",
+      "imagen": "HD_EXTERNO_TOSHIBA4TB.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "MEMORIA MICRO SD",
+      "descripcion": "512GB KINGSTON CANVAS GO PLUS 170R A2 SDCG3/512GB.",
+      "precio": "₡29,500",
+      "imagen": "MICRO_SDKINGSTON512GB.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "MEMORIA MICRO SD",
+      "descripcion": "256GB KINGSTON CANVAS GO PLUS 170R SDCG3/256GB.",
+      "precio": "₡13,500",
+      "imagen": "MICRO_SDKINGSTON256GB.jpg",
+      "categoria":"Almacenamiento"
+    },
+    {
+      "nombre": "UPS APC ",
+      "descripcion": "120 V BACK-UPS 5 TOMAS NEMA 5-15R Y 2 TOMAS NEMA 5-15R.",
+      "precio": "₡47,800",
+      "imagen": "UPS_APBE600M1.jpg",
+      "categoria":"Respaldo Electrico"
+    },
+    {
+      "nombre": "UPS APC PRO",
+      "descripcion": "BX 1350VA TORRE COMPACTA 120V AVR LCD 10 TOMACORRIENTE NEMA 5 SOBRETENSIONES BX1350M-LM60.",
+      "precio": "₡125,800",
+      "imagen": "UPS_PROBX1350VA.jpg",
+      "categoria":"Respaldo Electrico"
+    },
+    {
+      "nombre": "REGLETA PROTECTOR DE PICOS SMARTBITT",
+      "descripcion": "SUPRESSOR 12 OUTLETS 5USB SBSS-B12-5U.",
+      "precio": "₡12,000",
+      "imagen": "REGLETA_SUPRESOR12OUTLETS.jpg",
+      "categoria":"Respaldo Electrico"
+    },
+    {
+      "nombre": "LUCES GOVEE",
+      "descripcion": "H616C WI-FI RGBIC PARA EXTERIORES 10 METROS.",
+      "precio": "₡29,000",
+      "imagen": "LUCES_GOVEEH616C10METROS.jpg",
+      "categoria":"Smart Home"
+    },
+    {
+      "nombre": "BOMBILLOS LED TP LINK",
+      "descripcion": "SMART WIFI TAPO L530E(2-PACK) MULTICOLOR.",
+      "precio": "₡9,700",
+      "imagen": "BOMBILLO_LEDL530E.jpg",
+      "categoria":"Smart Home"
+    },
+    {
+      "nombre": "ROKU EXPRESS ",
+      "descripcion": "4K+ ROK-3941R2 NEGRO.",
+      "precio": "₡24,700",
+      "imagen": "ROKU_EXPRESS3941R2.jpg",
+      "categoria":"Smart Home"
+    },
+    {
+      "nombre": "AMAZON ECHO ",
+      "descripcion": "SHOW 5 GEN 3 CON PANTALLA TACTIL NEGRO.",
+      "precio": "₡44,900",
+      "imagen": "AMAZON_SHOW5GEN.jpg",
+      "categoria":"Smart Home"
+    },
+    {
+      "nombre": "AMAZON ECHO ",
+      "descripcion": "SHOW 5 GEN 3 CON PANTALLA TACTIL NEGRO.",
+      "precio": "₡44,900",
+      "imagen": "AMAZON_SHOW5GEN.jpg",
+      "categoria":"Smart Home"
+    },
+    {
+      "nombre": "CONECTOR WIFI ",
+      "descripcion": "TP LINK INTELIGENTE MINI TAPO P125 (1PACK).",
+      "precio": "₡5,900",
+      "imagen": "CONECTOR_WIFFI_P125.jpg",
+      "categoria":"Smart Home"
+    },
+    {
+      "nombre": "MICROSOFT OFFICE ",
+      "descripcion": "365 PERSONAL 1YR.",
+      "precio": "₡45,000",
+      "imagen": "Moffice_365personal.jpg",
+      "categoria":"Software"
+    },
+    {
+      "nombre": "WINDOWS 11 PRO",
+      "descripcion": "WINDOWS 11 PRO.",
+      "precio": "₡145,000",
+      "imagen": "WINDOWS_11PRO.jpg",
+      "categoria":"Software"
+    },
+    {
+      "nombre": "LICENCIA KASPERSKY",
+      "descripcion": "INTERNET SECURITY 3.",
+      "precio": "₡23,000",
+      "imagen": "KASPERSKY3.jpg",
+      "categoria":"Software"
+    },
+    {
+      "nombre": "TECLADO GENIUS",
+      "descripcion": "KB-117S MEMBRANA ALÁMBRICO USB ESPAÑOL.",
+      "precio": "₡3,700",
+      "imagen": "TECLADO_KB117S.jpg",
+      "categoria":"Teclados y Mouse"
+    },
+    {
+      "nombre": "MOUSE LOGITECH",
+      "descripcion": "M196 INALÁMBRICO BLUETOOTH.",
+      "precio": "₡5,400",
+      "imagen": "MOUSE_M196.jpg",
+      "categoria":"Teclados y Mouse"
+    },
+    {
+      "nombre": "TECLADO GENIUS",
+      "descripcion": "ERGO KB-700 MEMBRANA ALÁMBRICO USB ESPAÑOL.",
+      "precio": "₡14,000",
+      "imagen": "TECLADO_ERGOKB-700.jpg",
+      "categoria":"Teclados y Mouse"
+    },
+    {
+      "nombre": "MOUSE GENIUS",
+      "descripcion": "RS2 NX-8008S INALÁMBRICO 2.4 GHZ 1200.",
+      "precio": "₡3,800",
+      "imagen": "Mouse_RS2.jpg",
+      "categoria":"Teclados y Mouse"
+    },
+    {
+      "nombre": "TECLADO Y MOUSE LOGITECH",
+      "descripcion": "MK345 MEMBRANA INALÁMBRICO 2.4 GHZ CON RECEPTOR USB ESPAÑOL.",
+      "precio": "₡20,050",
+      "imagen": "TecladoMouse_LogitechMK345.jpg",
+      "categoria":"Teclados y Mouse"
+    },
+    {
+      "nombre": "MOUSE GENIUS",
+      "descripcion": "RS2 DX-110 ALÁMBRICO USB 1200.",
+      "precio": "₡2,600",
+      "imagen": "Mouse_RS2110.jpg",
+      "categoria":"Teclados y Mouse"
+    },
+    {
+      "nombre": "MOUSE TRACKBALL",
+      "descripcion": "LOGITECH ERGO M575S TRACKBALL INALÁMBRICO DUAL (LOGI BOLT/ BLUETOOTH).",
+      "precio": "₡23,600",
+      "imagen": "Mouse_TracjballM575S.jpg",
+      "categoria":"Teclados y Mouse"
+    },
+    {
+      "nombre": "TECLADO Y MOUSE GAMING",
+      "descripcion": "RGB SHARKOON SGB30 ALÁMBRICO USB INGLÉS.",
+      "precio": "₡35,500",
+      "imagen": "Teclado_MouseRGB.jpg",
+      "categoria":"Teclados y Mouse"
+    },
+    {
+      "nombre": "MOUSE GAMING LOGITECH",
+      "descripcion": "PRO 2 LIGHTSPEED INALÁMBRICO 2.4 GHZ 32000.",
+      "precio": "₡60,500",
+      "imagen": "Mouse_pro2.jpg",
+      "categoria":"Teclados y Mouse"
+    },
+    {
+      "nombre": "AUDIFONO JBL",
+      "descripcion": "TUNE FLEX 2 INALAMBRICO BLUETOOTH.",
+      "precio": "₡34,000",
+      "imagen": "Audifono_tuneFlex2.jpg",
+      "categoria":"Audifonos y Headsets"
+    },
+    {
+      "nombre": "AUDIFONO JBL ",
+      "descripcion": "TOUR PRO 3 INALAMBRICO BLUETOOTH.",
+      "precio": "₡129,000",
+      "imagen": "Audifono_JBLTourPRO.jpg",
+      "categoria":"Audifonos y Headsets"
+    },
+    {
+      "nombre": "AUDIFONO JBL ",
+      "descripcion": "ENDURANCE PEAK 3 SPORT INALAMBRICO BLUETOOTH.",
+      "precio": "₡49,000",
+      "imagen": "Audifono_JBLPEAK3.jpg",
+      "categoria":"Audifonos y Headsets"
+    },
+    {
+      "nombre": "AUDIFONO PHILIPS ",
+      "descripcion": "BLUETOOTH NEGRO.",
+      "precio": "₡44,500",
+      "imagen": "Audifono_Philips5205BK.jpg",
+      "categoria":"Audifonos y Headsets"
+    },
+    {
+    "nombre": "HEADSET LOGITECH ",
+    "descripcion": "ZONE 300 INALÁMBRICO BLUETOOTH.",
+    "precio": "₡29,500",
+    "imagen": "Headset_LOGIzone300.jpg",
+    "categoria":"Audifonos y Headsets"
+    },
+    {
+      "nombre": "HEADSET JBL ",
+      "descripcion": "TUNE 770NC LIFESTYLE INALÁMBRICO BLUETOOTH.",
+      "precio": "₡29,500",
+      "imagen": "Headset_JBLTUNE770NC.jpg",
+      "categoria":"Audifonos y Headsets"
+    },
+    {
+      "nombre": "HEADSET GAMING LOGITECH ",
+      "descripcion": "G PRO X LEAGUE OF LEGENDS EDITION ALÁMBRICO USB.",
+      "precio": "₡70,500",
+      "imagen": "Headset_LOGIT_GPRO.jpg",
+      "categoria":"Audifonos y Headsets"
+    },
+    {
+      "nombre": "CAMARA WEB ",
+      "descripcion": "CAMARA WEB LOGITECH.",
+      "precio": "₡41,500",
+      "imagen": "CamaraWEB_C920E.jpg",
+      "categoria":"Camara web y MousePads"
+      },
+      {
+        "nombre": "CAMARA WEB ",
+        "descripcion": "BRIO 305 GRAPHITE.",
+        "precio": "₡37,500",
+        "imagen": "CamaraWEB_Brio305.jpg",
+        "categoria":"Camara web y MousePads"
+      },
+      {
+        "nombre": "MOUSE PAD ",
+        "descripcion": "SHARKOON SGP30 POLY XXL.",
+        "precio": "₡9,500",
+        "imagen": "MousePad_multicolor.jpg",
+        "categoria":"Camara web y MousePads"
+      },
+      {
+        "nombre": "MOUSE PAD ",
+        "descripcion": "GENIUS GX-PAD G-WMP 100 BLACK.",
+        "precio": "₡4,500",
+        "imagen": " MousePad_GX.jpg",
+        "categoria":"Camara web y MousePads"
+      },
+      {
+        "nombre": "MOUSE PAD ",
+        "descripcion": "STUDIO SERIES GREAPHITE.",
+        "precio": "₡6,500",
+        "imagen": " MousePAD_Greaphite.jpg",
+        "categoria":"Camara web y MousePads"
+      },
+      {
+        "nombre": "IMPRESORA EPSON",
+        "descripcion": "MULTIFUNCIONAL L5590 ADF - FAX- WIFI.",
+        "precio": "₡190,500",
+        "imagen": " Impresora_L5590.jpg",
+        "categoria":"Impresoras"
+      },
+      {
+        "nombre": "IMPRESORA MOVIL",
+        "descripcion": "SAT AMÉRICA AF330.",
+        "precio": "₡70,500",
+        "imagen": " Impresora_PVAF330.jpg",
+        "categoria":"Punto de Venta"
+      },
+      {
+        "nombre": "COMPUTADORA",
+        "descripcion": "SAT AMERICA 15.6 CI140 J64 4GB 128GB SSD CON WINDOWS 10.",
+        "precio": "₡395,000",
+        "imagen": " Punto_ventaCompuSAT.jpg",
+        "categoria":"Punto de Venta"
+      },
+      {
+        "nombre": "IMPRESORA DE ETIQUETAS",
+        "descripcion": "ZEBRA AIR TT 74M ZD220.",
+        "precio": "₡149,000",
+        "imagen": " Impresora_EtiquetasTTZebra.jpg",
+        "categoria":"Punto de Venta"
+      },
+      {
+        "nombre": "IMPRESORA PUNTO DE VENTA",
+        "descripcion": "CUSTOM AMERICA MP RANGER USB-C.",
+        "precio": "₡205,000",
+        "imagen": " Impresora_PventaRanger.jpg",
+        "categoria":"Punto de Venta"
+      },
+      {
+        "nombre": "HUB TP LINK",
+        "descripcion": "USB-C 6 EN 1 3 PUERTOS USB 3.0 1 PUERTO USB-C 1 PUERTO HDMI 1 PUERTO RJ45.",
+        "precio": "₡18,200",
+        "imagen": " Impresora_PventaRanger.jpg",
+        "categoria":"Punto de Venta"
+      },
+      {
+        "nombre": "HUB TP LINK",
+        "descripcion": "USB-C 6 EN 1 3 PUERTOS USB 3.0 1 PUERTO USB-C 1 PUERTO HDMI 1 PUERTO RJ45.",
+        "precio": "₡18,200",
+        "imagen": " Hub_TPlinkUSB.jpg",
+        "categoria":"Accesorios"
+      },
+      {
+        "nombre": "ADAPTADOR TP LINK",
+        "descripcion": "USB-C A HDMI.",
+        "precio": "₡9,200",
+        "imagen": " Adaptador_TPUA520C.jpg",
+        "categoria":"Accesorios"
+      },
+      {
+        "nombre": "ADAPTADOR BLUETOOTH",
+        "descripcion": "5.3 Y WIFI 6 TP LINK ARCHER TX10UB NANO USB 600 MBPS.",
+        "precio": "₡8,500",
+        "imagen": " Adaptador_bluet5.3Wifi.jpg",
+        "categoria":"Accesorios"
+      },
+      {
+        "nombre": "ADAPTADOR TP LINK DE RED",
+        "descripcion": "USB 3.0 A GIGABIT UE300.",
+        "precio": "₡11,500",
+        "imagen": " Adaptador_redTPlink.jpg",
+        "categoria":"Accesorios"
+      },
+      {
+        "nombre": "SILLA GAMING ERGONÓMICA",
+        "descripcion": "THUNDERX3 YAMA1 MALLA CON CUERO SINTÉTICO.",
+        "precio": "₡85,500",
+        "imagen": "Silla_ThunderX3.jpg",
+        "categoria":"Sillas"
+      },
+      {
+        "nombre": "SILLA GAMING ERGONÓMICA",
+        "descripcion": "SILLA THUNDERX3 XTC MESH BLACK BLACK.",
+        "precio": "₡137,000",
+        "imagen": "Silla_ThunderX3_XTC.jpg",
+        "categoria":"Sillas"
+      },
+      {
+        "nombre": "SILLA GAMING SHARKOON",
+        "descripcion": "SILLA SGS30 BK/WH.",
+        "precio": "₡230,000",
+        "imagen": "Silla_Sharkoon_SGS30.jpg",
+        "categoria":"Sillas"
+      },
+      {
+        "nombre": "SILLA GAMING COOLER MASTER",
+        "descripcion": "CALIBER R1 RED CMI-GCR1-2019R.",
+        "precio": "₡159,000",
+        "imagen": "Silla_GamingCoolerCaliberR1.jpg",
+        "categoria":"Sillas"
+      },
+      {
+        "nombre": "CELULAR SAMSUNG GALAXY",
+        "descripcion": "S24 FE DS 6.7 8+256GB.",
+        "precio": "₡350,000",
+        "imagen": "Celular_S24FE256GB.jpg",
+        "categoria":"Tablets y Telefonos"
+      },
+      {
+        "nombre": "CELULAR SAMSUNG GALAXY",
+        "descripcion": "A16 DS 6.7 8+256GB 5G.",
+        "precio": "₡135,000",
+        "imagen": "Celular_A16256gb.jpg",
+        "categoria":"Tablets y Telefonos"
+      },
+      {
+        "nombre": "CELULAR SAMSUNG GALAXY",
+        "descripcion": "GALAXY A16 DS 6.7 6+128GB 5G.",
+        "precio": "₡115,000",
+        "imagen": "Celular_A16128GB.jpg",
+        "categoria":"Tablets y Telefonos"
+      },
+      {
+        "nombre": "CELULAR SAMSUNG GALAXY",
+        "descripcion": "A35 DS 256GB 5G AZUL.",
+        "precio": "₡155,000",
+        "imagen": "Celular_A35256GB.jpg",
+        "categoria":"Tablets y Telefonos"
+      },
+      {
+        "nombre": "TABLET OUKITEL",
+        "descripcion": "OT5 12'' (12GB+24GB)+256GB BLUETOOTH WIFI ANDROID DUAL SIM + CASE + PENCIL OT5-BL CELESTE.",
+        "precio": "₡255,000",
+        "imagen": "Tablet_OT5.jpg",
+        "categoria":"Tablets y Telefonos"
+      },
+      {
+        "nombre": "TABLET TCL",
+        "descripcion": "TAB 10.4 LTE 4+64GB GRIS OSCURO CON ESTUCHE TCL-8196G-FC.",
+        "precio": "₡105,000",
+        "imagen": "Tablet_TCLlte4_64gb.jpg",
+        "categoria":"Tablets y Telefonos"
+      },
+      {
+        "nombre": "TABLET SAMSUNG",
+        "descripcion": "11 TAB A9+ LTE 64GB 5G GRIS.",
+        "precio": "₡170,000",
+        "imagen": "Tablet_samsungTAB_A9.jpg",
+        "categoria":"Tablets y Telefonos"
+      },
+      {
+        "nombre": "TABLET SAMSUNG",
+        "descripcion": "12.4 GALAXY TAB S9 WIFI 128GB CON TECLADO GRIS.",
+        "precio": "₡445,000",
+        "imagen": "Tablet_S9_Wifi_128GB.jpg",
+        "categoria":"Tablets y Telefonos"
+      },
+      {
+        "nombre": "MONITOR SAMSUNG",
+        "descripcion": "VIEWFINITY S65UC 34 CURVO 3440 x 1440 100 HZ HDMI USB 3.0 Y USB-C.",
+        "precio": "₡270,000",
+        "imagen": "Monitor_samVIEWFINITY34.jpg",
+        "categoria":"Monitor"
+      },
+      {
+        "nombre": "MONITOR DELL",
+        "descripcion": "E2425H 23.8 PLANO 1920 X 1080 75HZ FHD DP Y VGA NEGRO.",
+        "precio": "₡131,000",
+        "imagen": "Monitor_DellE2425H.jpg",
+        "categoria":"Monitor"
+      },
+      {
+        "nombre": "MONITOR MSI",
+        "descripcion": "PLANO 27 PRO MP275W E2 1920 X 1080 IPS HDMI DISPLAYPORT VGA BLANCO.",
+        "precio": "₡67,000",
+        "imagen": "Monitor_MSIproMP275W.jpg",
+        "categoria":"Monitor"
+      },
+      {
+        "nombre": "MONITOR HIKVISION",
+        "descripcion": "MONITOR 24 HIKVISION DS-D5024F2-2P2(O-STD) 1920 1080 100HZ 5MS HDMI VGA.",
+        "precio": "₡51,000",
+        "imagen": "Monitor_HikvisionD5024F2.jpg",
+        "categoria":"Monitor"
+      },
+      {
+        "nombre": "MONITOR AOC",
+        "descripcion": "MONITOR 21.5 AOC 22B3HM FHD 1920X1080 75 HZ HDMI VGA PLANO ULTRA SLIM.",
+        "precio": "₡50,000",
+        "imagen": "Monitor_AOC22b3HM.jpg",
+        "categoria":"Monitor"
+      }
+  
+  ]
+
+  
