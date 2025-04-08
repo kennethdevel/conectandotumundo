@@ -205,9 +205,16 @@
     },
     {
       "nombre": "MICROSOFT OFFICE ",
-      "descripcion": "365 PERSONAL 1YR.",
+      "descripcion": "365 PERSONAL 12 MESES.",
       "precio": "₡45,000",
       "imagen": "Moffice_365personal.jpg",
+      "categoria":"Software"
+    },
+    {
+      "nombre": "MICROSOFT OFFICE 365 FAMILIAR 6 USUARIOS",
+      "descripcion": "365 PERSONAL 12 MESES.",
+      "precio": "₡63,000",
+      "imagen": "Moffice365Familiar.jpg",
       "categoria":"Software"
     },
     {
