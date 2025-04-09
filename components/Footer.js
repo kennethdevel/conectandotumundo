@@ -1,55 +1,51 @@
-export default function Footer() {
+import Image from 'next/image';
+import sinpe from '../public/SINPE.jpg'; // Asegúrate de que el archivo está en la carpeta 'public'
+import tarjetaCredito from '../public/tasa0BAC.jpg'; // Corrige la ruta de la imagen de la tarjeta
+import bac from '../public/BAC.png'; // Asegúrate de que el archivo está en la carpeta 'public'
+
+export default function FormasDePago() {
   return (
-    <footer className="bg-gray-900 text-white py-8 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
-        <div>
-          <h3 className="text-lg font-semibold mb-2">Conectando tu Mundo</h3>
-          <p>
-            Soluciones tecnológicas para hogares, empresas y personas. Productos, asesoría y soporte con garantía.
-          </p>
+    <div className="bg-white py-12 px-6 sm:px-12 md:px-24">
+      <h2 className="text-2xl font-semibold text-center mb-8">Métodos de Pago</h2>
+      
+      <div className="flex justify-center gap-8 flex-wrap">
+        {/* SINPE Móvil */}
+        <div className="flex flex-col items-center">
+          <Image 
+            src={sinpe} 
+            alt="SINPE" 
+            className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28"
+          />
+          <span className="text-sm mt-2">SINPE Móvil</span>
         </div>
-        <div>
-          <h3 className="text-lg font-semibold mb-2">Contacto</h3>
-          <p>📞 WhatsApp: <a href="https://wa.me/50684894314" target="_blank" className="text-teal-400">+506 8489 4314</a></p>
-          <p>📧 Correo: <a href="mailto:kendav7-08@hotmail.com" className="text-teal-400">kendav7-08@hotmail.com</a></p>
-          <p>📍 Costa Rica</p>
+        
+        {/* Tarjeta de Crédito */}
+        <div className="flex flex-col items-center">
+          <Image 
+            src={tarjetaCredito} 
+            alt="Tarjeta de Crédito" 
+            className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28"
+          />
+          <span className="text-sm mt-2">Tarjeta de Crédito</span>
         </div>
-        <div>
-          <h3 className="text-lg font-semibold mb-2">Información</h3>
-          <ul className="space-y-1">
-            <li>✔️ Precios incluyen IVA</li>
-            <li>✔️ Productos sujetos a disponibilidad</li>
-            <li>✔️ Envío con costo adicional</li>
-            <li>✔️ Factura electrónica disponible</li>
-          </ul>
+        
+        {/* BAC Tasa 0 */}
+        <div className="flex flex-col items-center">
+          <Image 
+            src={bac} 
+            alt="BAC Tasa 0" 
+            className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28"
+          />
+          <span className="text-sm mt-2">BAC: 3 o 6 meses tasa 0</span>
         </div>
-      </div>
-      <div className="text-center text-xs text-gray-400 mt-6">
-        © {new Date().getFullYear()} Conectando tu Mundo. Todos los derechos reservados.
       </div>
 
-      {/* Información de formas de pago con estilo */}
-      <div className="bg-teal-700 p-4 mt-6 rounded-lg text-center">
-        <p className="text-white text-lg font-semibold mb-2">Formas de Pago</p>
-        <div className="flex justify-center items-center space-x-4">
-          {/* Iconos de las formas de pago */}
-          <div className="flex items-center space-x-2">
-            <img src="SINPE.jpg" alt="SINPE" className="w-10 h-10" />
-            <span className="text-white">SINPE Móvil</span>
-          </div>
-          <div className="flex items-center space-x-2">
-            <img src="BAC.png" alt="Tarjeta" className="w-10 h-10" />
-            <span className="text-white">Tarjeta de Crédito/Débito</span>
-          </div>
-          <div className="flex items-center space-x-2">
-            <img src="tasa0BAC.jpg" alt="BAC" className="w-10 h-10" />
-            <span className="text-white">Tasa 0% con BAC (3 o 6 meses)</span>
-          </div>
-        </div>
-        <p className="text-white text-sm mt-2">
-          12, 18 y 24 meses con 2.9% de interés (minicuotas).
-        </p>
+      {/* Información adicional */}
+      <div className="mt-8 text-center text-sm text-gray-600">
+        <p>Las opciones de pago disponibles son SINPE Móvil, tarjeta de crédito o débito, y financiamiento con BAC.</p>
+        <p>Financiamiento de 3 o 6 meses a tasa 0, o 12, 18, 24 meses con 2.9% de interés (minicuotas).</p>
       </div>
-    </footer>
+    </div>
   );
 }
+
