@@ -566,6 +566,41 @@
         "precio": "₡50,000",
         "imagen": "Monitor_AOC22b3HM.jpg",
         "categoria":"Monitor"
+      },
+      {
+        "nombre": "PARLANTE JBL",
+        "descripcion": "PARLANTE JBL GO 4 BLUETOOTH A PRUEBA DE AGUA JBLGO4REDAM ROJO.",
+        "precio": "₡21,000",
+        "imagen": "ParlanteJBLaPruebaAgua.jpg",
+        "categoria":"Audio y Sonido"
+      },
+      {
+        "nombre": "PARLANTE XIAOMI",
+        "descripcion": "PARLANTE XIAOMI PORTABLE BLUETOOTH A PRUEBA DE AGUA 29692 AZUL.",
+        "precio": "18,500",
+        "imagen": "ParlanteXiaomiPortable.jpg",
+        "categoria":"Audio y Sonido"
+      },
+      {
+        "nombre": "PARLANTE LOGITECH",
+        "descripcion": "PARLANTE LOGITECH ULTIMATE EARS WONDERBOOM 3 BLUETOOTH A PRUEBA DE AGUA NEGRO.",
+        "precio": "45,500",
+        "imagen": "PARLANTE LOGI.jpg",
+        "categoria":"Audio y Sonido"
+      },
+      {
+        "nombre": "PARLANTE ARGOM",
+        "descripcion": "PARLANTE ARGOM DRUM BEATS X BLUETOOTH",
+        "precio": "12,500",
+        "imagen": "PARLANTE ARGOM.jpg",
+        "categoria":"Audio y Sonido"
+      },
+      {
+        "nombre": "PARLANTE ARGOM",
+        "descripcion": "PARLANTE RGB ARGOM RADYON + BEATS BLUETOOTH A PRUEBA DE AGUA",
+        "precio": "29,500",
+        "imagen": " ParlanteRGBArgom.jpg",
+        "categoria":"Audio y Sonido"
       }
   
   ]

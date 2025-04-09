@@ -45,7 +45,7 @@ export default function Servicios() {
           {/* Servicio 3: Soporte técnico */}
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
             <img
-              src="/soport.jpg" // Asegúrate de tener la imagen en /public
+              src="/Soport.jpg" // Asegúrate de tener la imagen en /public
               alt="Soporte técnico"
               className="w-full h-48 object-cover"
             />
