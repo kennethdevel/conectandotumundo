@@ -6,7 +6,7 @@ export default function Inicio() {
     <div
       className="relative h-screen bg-cover bg-center flex items-center justify-center text-white"
       style={{
-        backgroundImage: "url('/fondo-conec-mundo.webp')", // ← nueva imagen
+        backgroundImage: "url('/FondosinLetras.png')", // ← nueva imagen
         backgroundSize: "cover", // Asegura que la imagen cubra todo el fondo
         backgroundPosition: "center center", // Centra la imagen en el contenedor
       }}
