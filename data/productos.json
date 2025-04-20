@@ -601,6 +601,27 @@
         "precio": "29,500",
         "imagen": " ParlanteRGBArgom.jpg",
         "categoria":"Audio y Sonido"
+      },
+      {
+        "nombre": "PROYECTOR EPSON ",
+        "descripcion": "EPSON POWERLITE E20 ",
+        "precio": "330.000",
+        "imagen": " proyector-epson-powerlite-e20.jpg",
+        "categoria":"Proyectores y accesorios"
+      },
+      {
+        "nombre": "CONTROL REMOTO",
+        "descripcion": "EPSON NUEVO POWERLITE ",
+        "precio": "30.000",
+        "imagen": " ControlNuevoEpson.jpg",
+        "categoria":"Proyectores y accesorios"
+      },
+      {
+        "nombre": "CONTROL UNIVERSAL",
+        "descripcion": "CONTROL UNIVERSAL PARA PROYECTOR ",
+        "precio": "25.000",
+        "imagen": " ControlUniversal.jpg",
+        "categoria":"Proyectores y accesorios"
       }
   
   ]
