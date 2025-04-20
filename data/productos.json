@@ -577,49 +577,49 @@
       {
         "nombre": "PARLANTE XIAOMI",
         "descripcion": "PARLANTE XIAOMI PORTABLE BLUETOOTH A PRUEBA DE AGUA 29692 AZUL.",
-        "precio": "18,500",
+        "precio": "₡18,500",
         "imagen": "ParlanteXiaomiPortable.jpg",
         "categoria":"Audio y Sonido"
       },
       {
         "nombre": "PARLANTE LOGITECH",
         "descripcion": "PARLANTE LOGITECH ULTIMATE EARS WONDERBOOM 3 BLUETOOTH A PRUEBA DE AGUA NEGRO.",
-        "precio": "45,500",
+        "precio": "₡45,500",
         "imagen": "PARLANTE LOGI.jpg",
         "categoria":"Audio y Sonido"
       },
       {
         "nombre": "PARLANTE ARGOM",
         "descripcion": "PARLANTE ARGOM DRUM BEATS X BLUETOOTH",
-        "precio": "12,500",
+        "precio": "₡12,500",
         "imagen": "PARLANTE ARGOM.jpg",
         "categoria":"Audio y Sonido"
       },
       {
         "nombre": "PARLANTE ARGOM",
         "descripcion": "PARLANTE RGB ARGOM RADYON + BEATS BLUETOOTH A PRUEBA DE AGUA",
-        "precio": "29,500",
+        "precio": "₡29,500",
         "imagen": " ParlanteRGBArgom.jpg",
         "categoria":"Audio y Sonido"
       },
       {
         "nombre": "PROYECTOR EPSON ",
         "descripcion": "EPSON POWERLITE E20 ",
-        "precio": "330.000",
+        "precio": "₡330.000",
         "imagen": " proyector-epson-powerlite-e20.jpg",
         "categoria":"Proyectores y accesorios"
       },
       {
         "nombre": "CONTROL REMOTO",
         "descripcion": "EPSON NUEVO POWERLITE ",
-        "precio": "30.000",
+        "precio": "₡30.000",
         "imagen": " ControlNuevoEpson.jpg",
         "categoria":"Proyectores y accesorios"
       },
       {
         "nombre": "CONTROL UNIVERSAL",
         "descripcion": "CONTROL UNIVERSAL PARA PROYECTOR ",
-        "precio": "25.000",
+        "precio": "₡25.000",
         "imagen": " ControlUniversal.jpg",
         "categoria":"Proyectores y accesorios"
       }
