@@ -64,6 +64,13 @@
       "categoria":"Redes"
     },
     {
+      "nombre": "SISTEMA WIFI TP LINK ",
+      "descripcion": "DECO AX1500 MESH.",
+      "precio": "₡78,000",
+      "imagen": " MESHAX1800.jpg",
+      "categoria":"Redes"
+    },
+    {
       "nombre": "SWITCH HIKVISION",
       "descripcion": "DS-3E1105P-EI/M ADMINISTRABLE.",
       "precio": "₡17,000",
@@ -85,7 +92,7 @@
       "categoria":"Redes"
     },
     {
-      "nombre": "Disco Duro Externo Adata",
+      "nombre": "DISCO DURO EXTERNO",
       "descripcion": "HD 2TB, 2.5 BLUE.",
       "precio": "₡46,000",
       "imagen": "HD_ADATA2TBBLUE.jpg",
@@ -477,6 +484,13 @@
         "categoria":"Sillas"
       },
       {
+        "nombre": "CELULAR SAMSUNG GALAXY ",
+        "descripcion": "S25 Ultra 5G 512GB 12GB-RAM TITANIO.",
+        "precio": "₡790,000",
+        "imagen": " Celular Samsung Galaxy S25 Ultra 5G 512GB 12GB-RAM.jpg",
+        "categoria":"Tablets y Telefonos"
+      },
+      {
         "nombre": "CELULAR SAMSUNG GALAXY",
         "descripcion": "S24 FE DS 6.7 8+256GB.",
         "precio": "₡350,000",
@@ -502,6 +516,20 @@
         "descripcion": "A35 DS 256GB 5G AZUL.",
         "precio": "₡155,000",
         "imagen": "Celular_A35256GB.jpg",
+        "categoria":"Tablets y Telefonos"
+      },
+      {
+        "nombre": "CELULAR APPLE IPHONE 16E",
+        "descripcion": "128GB 8GB-RAM Negro.",
+        "precio": "₡435,500",
+        "imagen": " Celular Apple iPhone 16e 128GB 8GB-RAM Negro.jpg",
+        "categoria":"Tablets y Telefonos"
+      },
+      {
+        "nombre": "CELULAR APPLE IPHONE 16",
+        "descripcion": "128GB 8GB-RAM Rosa.",
+        "precio": "₡499,900",
+        "imagen": "  Celular Apple iPhone 16 128GB 8GB-RAM Rosa.jpg",
         "categoria":"Tablets y Telefonos"
       },
       {
@@ -612,7 +640,7 @@
       {
         "nombre": "CONTROL REMOTO",
         "descripcion": "EPSON NUEVO POWERLITE ",
-        "precio": "₡30.000",
+        "precio": "₡35.000",
         "imagen": " ControlNuevoEpson.jpg",
         "categoria":"Proyectores y accesorios"
       },
@@ -622,6 +650,83 @@
         "precio": "₡25.000",
         "imagen": " ControlUniversal.jpg",
         "categoria":"Proyectores y accesorios"
+      },
+      {
+        "nombre": "CONSOLA",
+        "descripcion": "CONSOLA PLAYSTATION 5 SONY  SLIM 1TB EDICION DIGITAL",
+        "precio": "₡295.000",
+        "imagen": " PLAY5EDICIONDIGITAL.jpg",
+        "categoria":"GAMING"
+      },
+      {
+        "nombre": "JOY-CON EAGLE WARRIOR",
+        "descripcion": "25R COMPATIBLE CON NINTENDO SWITCH INALAMBRICO CON CONECTOR DE AGARRE ",
+        "precio": "₡17.600",
+        "imagen": " GAMEPADTIPOJOY.jpg",
+        "categoria":"GAMING"
+      },
+      {
+        "nombre": "VOLANTE LOGITECH",
+        "descripcion": "LOGITECH PARA PS4 G923 ",
+        "precio": "₡230.600",
+        "imagen": " VOLANTELOGITECHG923.jpg",
+        "categoria":"GAMING"
+      },
+      {
+        "nombre": "CONSOLA",
+        "descripcion": "CONSOLA SONY PLAYSTATION 5 SLIM 1TB EDICION LIMITADA 30 ANIVERSARIO-DORMATO DIGITAL",
+        "precio": "₡498.000",
+        "imagen": " Consola Sony PlayStation 5 Slim 1TB - Edición Limitada 30 Aniversario - Formato Digital.jpg",
+        "categoria":"GAMING"
+      },
+      {
+        "nombre": "CONSOLA NINTENDO SWITCH",
+        "descripcion": "OLED 64 GB NEON",
+        "precio": "₡189.000",
+        "imagen": " Consola Nintendo Switch OLED 64GB Neon.jpg",
+        "categoria":"GAMING"
+      },
+      {
+        "nombre": "CONSOLA NINTENDO SWITCH",
+        "descripcion": "Switch OLED + Control Nintendo Switch Joy-Con",
+        "precio": "₡225.000",
+        "imagen": " Combo Consola Nintendo Switch OLED + Control Nintendo Switch Joy-Con (Blanco, Rosa-Amarillo Pastel).jpg",
+        "categoria":"GAMING"
+      },
+      {
+        "nombre": "SMARTWATCH SAMSUNG GALAXY",
+        "descripcion": "WATCH ULTRA 47 mm PLATA TITANIO",
+        "precio": "₡225.000",
+        "imagen": " SmartWatch Samsung Galaxy Watch Ultra 47mm Plata Titanio.jpg",
+        "categoria":"RELOJERIA"
+      },
+      {
+        "nombre": "SMARTWATCH SAMSUNG GALAXY",
+        "descripcion": "WATCH 7 44mm SPORT BAND VERDE",
+        "precio": "₡140.000",
+        "imagen": " SmartWatch Samsung Galaxy Watch 7 44mm Sport Band Verde.jpg",
+        "categoria":"RELOJERIA"
+      },
+      {
+        "nombre": "SMARTWATCH POLAR",
+        "descripcion": "IGNITE 2 43mm NEGRO",
+        "precio": "₡175.000",
+        "imagen": "  SmartWatch Polar Ignite 2 43mm Negro.jpg",
+        "categoria":"RELOJERIA"
+      },
+      {
+        "nombre": "SMARTWATCH GARMIN",
+        "descripcion": "FORERUNNER 55 42mm AQUA",
+        "precio": "₡139.900",
+        "imagen": "  SmartWatch Garmin Forerunner 55 42mm Aqua.jpg",
+        "categoria":"RELOJERIA"
+      },
+      {
+        "nombre": "SMARTWATCH APPLE",
+        "descripcion": "WATCH SERIES 10GPS 42mm Rose Gold",
+        "precio": "₡315.000",
+        "imagen": "SmartWatch Apple Watch Series 10 GPS 42mm S-M Rose Gold.jpg",
+        "categoria":"RELOJERIA"
       }
   
   ]
