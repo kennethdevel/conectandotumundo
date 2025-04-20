@@ -533,6 +533,13 @@
         "categoria":"Tablets y Telefonos"
       },
       {
+        "nombre": "CELULAR APPLE IPHONE 16 PRO",
+        "descripcion": "256GB 8GB-RAM Titanio.",
+        "precio": "₡783.000",
+        "imagen": "   Celular Apple iPhone 16 Pro 256GB 8GB-RAM Titanio del Desierto.jpg",
+        "categoria":"Tablets y Telefonos"
+      },
+      {
         "nombre": "TABLET OUKITEL",
         "descripcion": "OT5 12'' (12GB+24GB)+256GB BLUETOOTH WIFI ANDROID DUAL SIM + CASE + PENCIL OT5-BL CELESTE.",
         "precio": "₡255,000",
@@ -690,7 +697,7 @@
         "nombre": "CONSOLA NINTENDO SWITCH",
         "descripcion": "Switch OLED + Control Nintendo Switch Joy-Con",
         "precio": "₡225.000",
-        "imagen": " Combo Consola Nintendo Switch OLED + Control Nintendo Switch Joy-Con (Blanco, Rosa-Amarillo Pastel).jpg",
+        "imagen": " Combo Consola Nintendo Switch OLED + Control Nintendo Switch Joy-Con.jpg",
         "categoria":"GAMING"
       },
       {
