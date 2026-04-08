@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111827;
+  color: #f9fafb;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Scrollbar personalizado */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+::-webkit-scrollbar-thumb {
+  background: #14b8a6;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0d9488;
+}
+
+@layer components {
+  /* Input estilo oscuro reutilizable */
+  .input-dark {
+    @apply w-full bg-gray-700 border border-gray-600 text-white rounded-xl px-4 py-2.5
+           focus:outline-none focus:border-teal-500 focus:ring-1 focus:ring-teal-500/30
+           placeholder-gray-500 transition duration-200;
+  }
+
+  /* Tarjeta oscura */
+  .card-dark {
+    @apply bg-gray-800 border border-gray-700 rounded-2xl
+           hover:border-teal-500/40 hover:shadow-xl hover:shadow-teal-500/10
+           transition-all duration-300;
+  }
+
+  /* Botón primario teal */
+  .btn-primary {
+    @apply bg-teal-600 hover:bg-teal-500 text-white font-semibold
+           px-6 py-3 rounded-xl transition-all duration-200
+           hover:shadow-lg hover:shadow-teal-500/25 hover:-translate-y-0.5;
+  }
+
+  /* Botón outline teal */
+  .btn-outline {
+    @apply border border-teal-500 text-teal-400 hover:bg-teal-600 hover:text-white
+           font-semibold px-6 py-3 rounded-xl transition-all duration-200
+           hover:-translate-y-0.5;
+  }
+
+  /* Badge de categoría */
+  .badge {
+    @apply bg-teal-500/10 text-teal-300 text-xs px-2.5 py-1 rounded-full
+           border border-teal-500/20;
+  }
+
+  /* Título de sección */
+  .section-title {
+    @apply text-4xl font-extrabold text-white mb-3;
+  }
+
+  .section-subtitle {
+    @apply text-gray-400 text-lg;
+  }
+}
+
+/* Animaciones */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 10px rgba(20, 184, 166, 0.3); }
+  50% { box-shadow: 0 0 25px rgba(20, 184, 166, 0.6); }
+}
+
+.glow-teal {
+  animation: glow 2s ease-in-out infinite;
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+/* Line clamp para textos largos */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
