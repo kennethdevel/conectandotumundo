@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Inventario de activos para colegios · Conectando tu Mundo</title>
+<meta name="description" content="Inventario de activos para colegios y escuelas privadas de Costa Rica. Primer mes gratis, después $50 al mes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5f8f9;--card:#fff;--ink:#12212b;--mu:#53636f;--bd:#d6e0e4;--ac:#0e6670;--acx:#fff;--hi:#e2f0f1;--wa:#16894a;--wax:#fff;--ok:#1b7442;--am:#8f5f00;--bad:#b3261e;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1519;--card:#16212a;--ink:#e9f0f3;--mu:#9fb0bb;--bd:#2a3a45;--ac:#4cc3cf;--acx:#04262a;--hi:#173038;--wa:#2fbf6c;--wax:#04210f;--ok:#5fcf8f;--am:#e5b351;--bad:#ff8a80}}
+:root[data-theme="dark"]{--bg:#0e1519;--card:#16212a;--ink:#e9f0f3;--mu:#9fb0bb;--bd:#2a3a45;--ac:#4cc3cf;--acx:#04262a;--hi:#173038;--wa:#2fbf6c;--wax:#04210f;--ok:#5fcf8f;--am:#e5b351;--bad:#ff8a80}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif}
+.w{max-width:1040px;margin:0 auto;padding:0 20px}
+a{color:inherit}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 0}
+.brand{font-weight:800;text-decoration:none;letter-spacing:-.01em}
+.btn{display:inline-block;text-decoration:none;font-weight:700;border-radius:8px;padding:13px 22px;background:var(--wa);color:var(--wax);border:2px solid var(--wa)}
+.btn:hover{filter:brightness(1.08)}
+.btn.s{padding:8px 16px;font-size:15px}
+.btn.o{background:transparent;color:var(--ink);border-color:var(--bd)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--ac);outline-offset:3px}
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;padding:36px 0 56px}
+h1{font-size:clamp(32px,5vw,50px);line-height:1.08;letter-spacing:-.02em;font-weight:800;margin:0 0 16px}
+.lead{font-size:19px;color:var(--mu);margin:0 0 24px;max-width:46ch}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:12px}
+.fine{color:var(--mu);font-size:15px;margin:0}
+.demo{background:var(--card);border:1px solid var(--bd);border-radius:10px;overflow-x:auto}
+.demo h2{margin:0;padding:12px 16px;font-size:15px;background:var(--hi);font-weight:700}
+.demo table{width:100%;border-collapse:collapse;font-size:14px}
+.demo th,.demo td{text-align:left;padding:9px 14px;border-bottom:1px solid var(--bd)}
+.demo th{color:var(--mu);font-weight:500}
+.demo tr:last-child td{border-bottom:0}
+.demo td:first-child{font-weight:700;white-space:nowrap}
+.pill{display:inline-block;padding:0 9px;border-radius:99px;border:1px solid currentColor;font-size:13px}
+.ok{color:var(--ok)}.am{color:var(--am)}.bad{color:var(--bad)}
+.demo p{margin:0;padding:10px 16px;font-size:14px;color:var(--mu);background:var(--hi)}
+section{padding:48px 0;border-top:1px solid var(--bd)}
+h2.t{font-size:clamp(25px,3.4vw,34px);line-height:1.15;letter-spacing:-.015em;margin:0 0 24px;font-weight:800;max-width:24ch}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.item h3{margin:0 0 4px;font-size:19px}
+.item p{margin:0;color:var(--mu)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;counter-reset:s;padding:0;list-style:none;margin:0}
+.steps li{counter-increment:s;background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:18px}
+.steps li::before{content:counter(s);display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--ac);color:var(--acx);font-weight:800;margin-bottom:10px}
+.steps b{display:block;margin-bottom:2px}
+.steps span{color:var(--mu)}
+.price{display:grid;grid-template-columns:auto 1fr;gap:32px;align-items:center;background:var(--card);border:2px solid var(--ac);border-radius:12px;padding:28px}
+.price .n{font-size:56px;font-weight:800;line-height:1;letter-spacing:-.03em}
+.price .n small{font-size:18px;font-weight:500;color:var(--mu)}
+.price ul{margin:0;padding-left:20px;color:var(--mu)}
+.price li{margin:3px 0}
+.about{max-width:62ch}
+.about p{margin:0 0 12px;color:var(--mu)}
+details{border-bottom:1px solid var(--bd);padding:14px 0}
+summary{font-weight:700;cursor:pointer}
+details p{margin:8px 0 0;color:var(--mu);max-width:62ch}
+.band{background:var(--ac);color:var(--acx);padding:44px 0;text-align:left}
+.band h2{margin:0 0 8px;font-size:clamp(24px,3.4vw,32px);line-height:1.15;font-weight:800}
+.band p{margin:0 0 20px;opacity:.9}
+.band .btn{background:var(--card);color:var(--ink);border-color:var(--card)}
+footer{padding:24px 0 36px;color:var(--mu);font-size:14px}
+@media (max-width:760px){.hero{grid-template-columns:1fr;gap:28px;padding-top:20px}.grid,.steps{grid-template-columns:1fr}.price{grid-template-columns:1fr;gap:14px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="w">
+<div class="top"><a class="brand" href="#">Conectando tu Mundo</a><a class="btn s wa" href="#">Escribinos por WhatsApp</a></div>
+
+<div class="hero">
+<div>
+<h1>Sabé dónde está cada proyector, laptop y pizarra de tu colegio</h1>
+<p class="lead">Un inventario de activos simple para colegios y escuelas privadas: cada equipo con su código, su aula y su responsable. Sin hojas de Excel perdidas.</p>
+<div class="cta"><a class="btn wa" href="#">Pedir mi primer mes gratis</a><a class="btn o" id="demo" href="#" hidden>Ver la demostración</a></div>
+<p class="fine">Después, $50 al mes por colegio. Sin contrato.</p>
+</div>
+<div class="demo" aria-label="Ejemplo de la lista de activos">
+<h2>Inventario del colegio</h2>
+<table>
+<thead><tr><th>Código</th><th>Activo</th><th>Ubicación</th><th>Estado</th><th>Garantía</th></tr></thead>
+<tbody>
+<tr><td>AF-0001</td><td>Proyector Epson X49</td><td>Aula 5-2</td><td><span class="pill ok">Bueno</span></td><td><span class="pill am">Por vencer</span></td></tr>
+<tr><td>AF-0002</td><td>Laptop Dell Latitude</td><td>Laboratorio</td><td><span class="pill ok">Bueno</span></td><td><span class="pill ok">Vigente</span></td></tr>
+<tr><td>AF-0003</td><td>Laptop Dell Latitude</td><td>Laboratorio</td><td><span class="pill bad">Dañado</span></td><td><span class="pill bad">Vencida</span></td></tr>
+<tr><td>AF-0004</td><td>Pizarra acrílica 2.4 m</td><td>Aula 3-1</td><td><span class="pill am">Regular</span></td><td>Sin garantía</td></tr>
+</tbody></table>
+<p>Cada activo con responsable, valor, serie, fecha de compra y garantía.</p>
+</div>
+</div>
+</div>
+
+<section><div class="w">
+<h2 class="t">Menos tiempo buscando, más control de lo que tiene el colegio</h2>
+<div class="grid">
+<div class="item"><h3>Cada activo, ubicado</h3><p>Código, aula, responsable y estado. Buscás por nombre o número de serie y lo encontrás en segundos.</p></div>
+<div class="item"><h3>Lo dañado se ve rápido</h3><p>Marcá un equipo como dañado o dado de baja y mirá cuántos tenés y cuánto valen en total.</p></div>
+<div class="item"><h3>Listo para el contador y la junta</h3><p>Copiás todo a Excel cuando alguien pide el detalle de los bienes del colegio.</p></div>
+<div class="item"><h3>Garantías bajo control</h3><p>Anotá la fecha de compra y hasta cuándo cubre la garantía. La app te muestra cuáles vencen pronto, para reclamar a tiempo.</p></div>
+<div class="item"><h3>Sin datos de estudiantes</h3><p>Solo registra bienes del colegio, así que no manejás información de menores.</p></div>
+<div class="item"><h3>Se abre desde el navegador</h3><p>No hay nada que instalar. Funciona en computadora y en celular.</p></div>
+</div>
+</div></section>
+
+<section><div class="w">
+<h2 class="t">Empezar toma una conversación</h2>
+<ol class="steps">
+<li><b>Nos escribís</b><span>Por WhatsApp, con el nombre de tu colegio.</span></li>
+<li><b>Te lo dejamos listo</b><span>Con las aulas y categorías de tu colegio ya cargadas.</span></li>
+<li><b>Lo usás un mes gratis</b><span>Si te sirve, seguís por $50 al mes.</span></li>
+</ol>
+</div></section>
+
+<section><div class="w">
+<h2 class="t">Un precio simple para cada colegio</h2>
+<div class="price">
+<div class="n">$50<small> al mes</small></div>
+<ul>
+<li>Primer mes gratis</li>
+<li>Te ayudamos a cargar los activos iniciales de tu colegio</li>
+<li>Activos y aulas sin tope</li>
+<li>Exportación a Excel</li>
+<li>Soporte por WhatsApp</li>
+<li>Pago por SINPE Móvil o transferencia</li>
+<li>¿Querés el levantamiento físico y el etiquetado completo? Se cotiza aparte.</li>
+</ul>
+</div>
+</div></section>
+
+<section><div class="w about">
+<h2 class="t">Quién está detrás</h2>
+<p>Soy Kenneth Vargas, analista de ciberseguridad y administrador de TI con 5 años de experiencia, incluida la administración de la red de un colegio. Tengo la certificación CompTIA Security+ y estudio Ingeniería en Seguridad Informática.</p>
+<p>Hice esta herramienta porque conozco el problema desde adentro: los equipos se mueven de aula, se dañan y nadie sabe dónde quedaron.</p>
+</div></section>
+
+<section><div class="w">
+<h2 class="t">Preguntas frecuentes</h2>
+<details><summary>¿Dónde se guardan los datos?</summary><p>En el navegador del equipo que usen, con un respaldo que podés copiar y guardar donde quieras, y exportar a Excel.</p></details>
+<details><summary>¿Puedo usarlo desde varios equipos?</summary><p>Por ahora cada colegio trabaja desde un equipo principal. El acceso desde varios equipos es lo siguiente que construimos junto con los primeros colegios.</p></details>
+<details><summary>¿Cómo se paga?</summary><p>Una vez terminado el mes gratis, pagás $50 al mes por SINPE Móvil o transferencia.</p></details>
+<details><summary>¿Y si no me sirve?</summary><p>No pagás nada durante el primer mes, y no hay contrato que cancelar.</p></details>
+</div></section>
+
+<div class="band"><div class="w">
+<h2>Probalo en tu colegio este mes</h2>
+<p>Escribinos y te lo dejamos listo con los datos de tu colegio.</p>
+<a class="btn wa" href="#">Pedir mi primer mes gratis</a>
+</div></div>
+
+<footer><div class="w">Conectando tu Mundo · conectandotumundo.com · Costa Rica</div></footer>
+
+<script>
+// Si cambiás de número o tenés un link de demostración, editá estos dos valores.
+var WA='50684894314';   // WhatsApp con código de país (506), sin + ni espacios
+var DEMO='/inventario-app';  // demostración en el mismo sitio
+var msg=encodeURIComponent('Hola, me interesa el inventario de activos para mi colegio. ¿Me pueden dar el primer mes gratis?');
+document.querySelectorAll('a.wa').forEach(function(a){a.href='https://wa.me/'+WA+'?text='+msg;a.target='_blank';a.rel='noopener'});
+if(DEMO){var d=document.getElementById('demo');d.href=DEMO;d.target='_blank';d.rel='noopener';d.hidden=false}
+</script>
+</body>
+</html>
